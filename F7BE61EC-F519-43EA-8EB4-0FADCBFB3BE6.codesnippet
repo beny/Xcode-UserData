@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if ([&lt;#target#&gt; respondsToSelector:@selector(&lt;#selector#&gt;)]) {
+    [&lt;#target#&gt; performSelector:@selector(&lt;#selector#&gt;) withObject:&lt;#object#&gt;];
+	}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F7BE61EC-F519-43EA-8EB4-0FADCBFB3BE6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Place simple if respond then perform selector code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>If respond then perform</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
