@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nn</string>
+	<string>pp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#notification name#&gt; object:nil];</string>
+	<string>@property (nonatomic, strong) id&lt;&lt;#protocol#&gt;&gt; &lt;#object#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A1066310-CF73-4030-9C9E-C9734CB774B8</string>
+	<string>DBABC7B6-AD14-495D-8C84-C044D18E5F82</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Adds notification observer to myself</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add notification observer</string>
+	<string>Property (id)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

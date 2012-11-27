@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nn</string>
+	<string>debug</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#notification name#&gt; object:nil];</string>
+	<string>#ifdef DEBUG
+#warning FIXME debug
+
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A1066310-CF73-4030-9C9E-C9734CB774B8</string>
+	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Adds notification observer to myself</string>
+	<string>Noticable debug code which runs only on debug mode</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add notification observer</string>
+	<string>Debug</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

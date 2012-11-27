@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nn</string>
+	<string>fixme</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#notification name#&gt; object:nil];</string>
+	<string>warning FIXME &lt;#message#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A1066310-CF73-4030-9C9E-C9734CB774B8</string>
+	<string>57C4D686-7880-4AF9-BD4D-92D685388ED5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Adds notification observer to myself</string>
+	<string>Fixme with warning</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add notification observer</string>
+	<string>FIXME</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

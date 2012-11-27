@@ -3,26 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ii</string>
+	<string>view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id)init {
-if (self = [super init]) {
-    &lt;##&gt;
-	}
-	return self;
-}</string>
+	<string>pragma mark - View lifecycle</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4D8C3ED9-000E-4777-920A-C8133D16EE2D</string>
+	<string>B0C2428F-3E8E-47CD-8773-9DC4B6B88510</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Basic init methods</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Basic init</string>
+	<string>View lifecycle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

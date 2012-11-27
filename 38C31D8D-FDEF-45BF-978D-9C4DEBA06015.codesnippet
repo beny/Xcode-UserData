@@ -9,8 +9,7 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// remove notification observer
-[[NSNotificationCenter defaultCenter] removeObserver:&lt;#instance#&gt;];</string>
+	<string>[[NSNotificationCenter defaultCenter] removeObserver:&lt;#instance#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>38C31D8D-FDEF-45BF-978D-9C4DEBA06015</string>
 	<key>IDECodeSnippetLanguage</key>
