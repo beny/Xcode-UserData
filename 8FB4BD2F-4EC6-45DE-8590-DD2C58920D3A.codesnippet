@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#ifdef DEBUG
 #warning FIXME debug
-
+&lt;#debug code#&gt;
 #endif</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

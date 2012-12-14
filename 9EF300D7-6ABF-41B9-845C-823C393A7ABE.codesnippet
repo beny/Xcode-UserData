@@ -6,10 +6,10 @@
 	<string>unused</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma unused(&lt;#variables#&gt;)</string>
+	<string>pragma unused(&lt;#variables#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9EF300D7-6ABF-41B9-845C-823C393A7ABE</string>
 	<key>IDECodeSnippetLanguage</key>
