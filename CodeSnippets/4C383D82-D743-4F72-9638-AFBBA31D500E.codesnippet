@@ -2,18 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>localize</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] removeObserver:self];</string>
+	<string>warning TODO localize</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8850499A-7DBA-415D-8543-1494FE25244F</string>
+	<string>4C383D82-D743-4F72-9638-AFBBA31D500E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Note for string which should be localized</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Localize</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

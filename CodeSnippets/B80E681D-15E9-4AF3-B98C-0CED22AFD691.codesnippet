@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rr</string>
+	<string>dd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if ([&lt;#target#&gt; respondsToSelector:@selector(&lt;#selector#&gt;)]) {
-    [&lt;#target#&gt; &lt;#method#&gt;];
-}</string>
+	<string>#ifdef DEBUG
+#warning FIXME debug
+&lt;#term#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7BE61EC-F519-43EA-8EB4-0FADCBFB3BE6</string>
+	<string>B80E681D-15E9-4AF3-B98C-0CED22AFD691</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Place simple if respond then perform selector code</string>
+	<string>Noticable debug code which runs only on debug mode without NSLog</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>If respond then perform</string>
+	<string>Debug</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

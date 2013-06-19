@@ -9,7 +9,7 @@
 		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pragma mark Memory management</string>
+	<string>pragma mark - Memory management</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4F9ACB65-0EFF-4BC1-8E0F-BF8C47BB0709</string>
 	<key>IDECodeSnippetLanguage</key>

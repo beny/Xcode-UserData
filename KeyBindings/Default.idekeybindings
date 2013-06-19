@@ -8,6 +8,28 @@
 		<array>
 			<dict>
 				<key>Action</key>
+				<string>performAlertEvent:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>85171251-0CC2-49A9-BD08-400E2B06AB72-589-00001CE00B2FB070</string>
+				<key>Group</key>
+				<string>Xcode Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Xcode</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~@c</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Behaviors</string>
+				<key>Title</key>
+				<string>New Behavior</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>showDocumentItemsMenu:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -45,6 +67,214 @@
 				<string>NO</string>
 				<key>Title</key>
 				<string>Move Focus To Editor…</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>foldAllMethods:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.FoldMethodsOrFunctions</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.FoldMethodsOrFunctions</string>
+				<key>Group</key>
+				<string>Editor Menu for Data Model Comparison</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Code Folding</string>
+				<key>Title</key>
+				<string>Fold Methods &amp; Functions</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>unfoldAllMethods:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldMethodsOrFunctions</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldMethodsOrFunctions</string>
+				<key>Group</key>
+				<string>Editor Menu for Data Model Comparison</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Code Folding</string>
+				<key>Title</key>
+				<string>Unfold Methods &amp; Functions</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>foldAllMethods:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.FoldMethodsOrFunctions</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.FoldMethodsOrFunctions</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Code Folding</string>
+				<key>Title</key>
+				<string>Fold Methods &amp; Functions</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>unfoldAllMethods:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldMethodsOrFunctions</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldMethodsOrFunctions</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Code Folding</string>
+				<key>Title</key>
+				<string>Unfold Methods &amp; Functions</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>foldAllMethods:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.FoldMethodsOrFunctions</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.FoldMethodsOrFunctions</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code Comparison</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Code Folding</string>
+				<key>Title</key>
+				<string>Fold Methods &amp; Functions</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>unfoldAllMethods:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldMethodsOrFunctions</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldMethodsOrFunctions</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code Comparison</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Code Folding</string>
+				<key>Title</key>
+				<string>Unfold Methods &amp; Functions</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>pauseOrContinue:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.PauseContinue</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.PauseContinue</string>
+				<key>Group</key>
+				<string>Product Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string></string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Debug</string>
+				<key>Title</key>
+				<string>Pause / Continue</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>releaseOpenGLESFrame:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.PauseContinue</string>
+				<key>CommandID</key>
+				<string>Xcode.GPUToolsKit.CmdDefinition.ReleaseOpenGLESFrame</string>
+				<key>Group</key>
+				<string>Debug Menu for OpenGL ES</string>
+				<key>GroupID</key>
+				<string>Xcode.GPUToolsKit.MenuDefinition.Debug</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string></string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Release OpenGL ES Frame</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>stepToPreviousDrawCall:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.GPUToolsKit.CmdDefinition.StepPreviousDrawCall</string>
+				<key>Group</key>
+				<string>Debug Menu for OpenGL ES</string>
+				<key>GroupID</key>
+				<string>Xcode.GPUToolsKit.MenuDefinition.Debug</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Step to Previous OpenGL ES Draw Call</string>
 			</dict>
 		</array>
 		<key>Version</key>
