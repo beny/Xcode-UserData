@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dd</string>
+	<string>cc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-#warning FIXME debug
-NSLog(@"&lt;#message#&gt;");
-#endif</string>
+	<string>NSLayoutConstraint *&lt;#view#&gt;Constraint = [NSLayoutConstraint constraintWithItem:&lt;#(id)#&gt; attribute:NSLayoutAttribute&lt;#attribute#&gt; relatedBy:NSLayoutRelation&lt;#relation#&gt; toItem:&lt;#(id)#&gt; attribute:NSLayoutAttribute&lt;#attribute#&gt; multiplier:&lt;#(CGFloat)#&gt; constant:&lt;#(CGFloat)#&gt;];
+[&lt;#parent view#&gt; addConstraint:&lt;#view#&gt;Constraint];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
+	<string>2C8E6A80-ED97-4F8C-A0DB-47C7F1D11C7D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Noticable debug code which runs only on debug mode</string>
+	<string>Place simple constraint with adding to self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug with NSLog</string>
+	<string>Simple constraint</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

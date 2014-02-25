@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dd</string>
+	<string>init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-#warning FIXME debug
-NSLog(@"&lt;#message#&gt;");
-#endif</string>
+	<string>if (self = [super &lt;#super init#&gt;]) {
+    &lt;#init code#&gt;
+}
+return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
+	<string>87DFDFA8-0230-4019-AF73-0E56DBA77A3E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Noticable debug code which runs only on debug mode</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug with NSLog</string>
+	<string>Init template</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

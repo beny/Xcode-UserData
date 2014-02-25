@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dd</string>
+	<string>case</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-#warning FIXME debug
-NSLog(@"&lt;#message#&gt;");
-#endif</string>
+	<string>case &lt;#value#&gt;: {
+    &lt;#code#&gt;
+} break;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
+	<string>B17D6357-E88E-400A-99E0-5D4CBA2713E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Noticable debug code which runs only on debug mode</string>
+	<string>Custom case with ARC valid block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug with NSLog</string>
+	<string>Custom case</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dd</string>
+	<string>nspath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-#warning FIXME debug
-NSLog(@"&lt;#message#&gt;");
-#endif</string>
+	<string>[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
+	<string>2D0271B8-EA1B-4AF7-85F3-F5B024DC4A5B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Noticable debug code which runs only on debug mode</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug with NSLog</string>
+	<string>Cache path</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

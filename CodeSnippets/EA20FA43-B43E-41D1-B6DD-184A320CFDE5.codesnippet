@@ -2,25 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-#warning FIXME debug
-NSLog(@"&lt;#message#&gt;");
-#endif</string>
+	<string>    UIView *&lt;#view#&gt; = self.&lt;#view#&gt;;
+    NSArray *vertical&lt;#view#&gt;Constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:&lt;#vertical constraint#&gt;" options:0 metrics:nil views:NSDictionaryOfVariableBindings(&lt;#views#&gt;)];
+    [self addConstraints:vertical&lt;#view#&gt;Constraints];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
+	<string>EA20FA43-B43E-41D1-B6DD-184A320CFDE5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Noticable debug code which runs only on debug mode</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug with NSLog</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

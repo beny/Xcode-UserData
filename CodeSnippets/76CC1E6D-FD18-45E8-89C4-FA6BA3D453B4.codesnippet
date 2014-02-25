@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIView *&lt;#view#&gt; = self.&lt;#view#&gt;;
+NSArray *vertical&lt;#view#&gt;Constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:&lt;#vertical constraint#&gt;" options:0 metrics:nil views:NSDictionaryOfVariableBindings(&lt;#views#&gt;)];
+[&lt;#parent view#&gt; addConstraints:vertical&lt;#view#&gt;Constraints];
+NSArray *horizontal&lt;#view#&gt;Constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:&lt;#horizontal constraints#&gt;" options:0 metrics:nil views:NSDictionaryOfVariableBindings(&lt;#views#&gt;)];
+[&lt;#parent view#&gt; addConstraints:horizontal&lt;#view#&gt;Constraints];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>76CC1E6D-FD18-45E8-89C4-FA6BA3D453B4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Signle line horizontal and vertical constraints definitions and addition to the view</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Horizontal &amp; vertical constraints</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

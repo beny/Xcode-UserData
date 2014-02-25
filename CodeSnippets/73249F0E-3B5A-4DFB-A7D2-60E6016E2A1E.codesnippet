@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dd</string>
+	<string>cc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-#warning FIXME debug
-NSLog(@"&lt;#message#&gt;");
-#endif</string>
+	<string>    UIView *&lt;#view#&gt; = self.&lt;#view#&gt;;
+    NSArray *&lt;#view#&gt;Constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"&lt;#direction#&gt;:&lt;#vertical constraint#&gt;" options:0 metrics:nil views:NSDictionaryOfVariableBindings(&lt;#views#&gt;)];
+[&lt;#parent view#&gt; addConstraints:&lt;#view#&gt;Constraints];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8FB4BD2F-4EC6-45DE-8590-DD2C58920D3A</string>
+	<string>73249F0E-3B5A-4DFB-A7D2-60E6016E2A1E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Noticable debug code which runs only on debug mode</string>
+	<string>Place one visual constraint with adding it afterwards</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug with NSLog</string>
+	<string>Visual constraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
